@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(241, 230, 230);
+}
 .caro{
     height: 600px;
 }
@@ -21,11 +24,25 @@
     color: #fff;
 }
 
-.text a{
+.text a,.course a{
     text-decoration: none;
     padding: 15px;
+    font-size: 1.25rem;
+    align-items: center;
+    justify-content: center;
     margin-top: 1%;
     border-radius: 5px;
-    color: #fff;
-    background-color: rgb(9, 9, 138);
+    color: rgb(255, 255, 255);
+    background-color: #0db7eb;
+}
+.reg{
+    padding-top: 8%;
+}
+.register{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.25rem;
+    margin-left: 60%;
+    margin-top: 20%;
+    background-color: white;
 }

@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <header>
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar navbar-expand-lg ">
                 <div class="container">
                     <span class="navbar-brand pe-4" href="#">Edu Tips</span>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -24,18 +24,21 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item pe-4">
-                                <a class="nav-link" href="#">Course</a>
+                                <a class="nav-link" href="#">Courses</a>
                             </li>
                             <li class="nav-item pe-4">
-                                <a class="nav-link" href="#">Deals</a>
+                                <a class="nav-link" href="#">Register</a>
                             </li>
                             <li class="nav-item pe-4">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                            <li class="nav-item pe-5">
                                 <a class="nav-link" href="#">About</a>
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
+                            <button class="btn btn-info text-white" type="submit">Search</button>
                         </form>
                     </div>
                 </div>
@@ -180,7 +183,27 @@
                     looking at its layout.</p>
             </div>
             <div class="w-50 reg">
-                <a class="register text-info " href="#">Register Now</a>
+                <!-- <a class="register text-info " href="#">Register Now</a> -->
+                <button type="button" class="btn btn-light text-info fs-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register Now</button>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Hello, This is my first bootstrap project with modal...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="mb-5">
